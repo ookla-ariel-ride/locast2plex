@@ -307,11 +307,11 @@ if __name__ == '__main__':
 
     ffmpeg_proc = None
     
-    mock_location = None
-    #mock_location = {
-    #    "latitude": "47.6062",
-    #    "longitude": "-122.3321"
-    #}
+    mock_location = "Los Angeles"
+    mock_location = {
+        "latitude": "34.0522",
+        "longitude": "-118.2437"
+    }
 #
     locast = LocastService.LocastService("./", mock_location)
     station_list = None
